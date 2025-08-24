@@ -7,11 +7,6 @@ packages:
   gitUrl: https://github.com/rimabarman
   gitUsername: rimabarman
   gitBranch: main
-- name: Pack_VersionManagement
-  gitServerName: rimaSCName
-  gitUrl: https://github.com/rimabarman
-  gitUsername: rimabarman
-  gitBranch: main
 configurationVariables:
   jdbc.SAP TxStore Pool.maxConns: "10"
   jdbc.SAP TxStore Pool.spyparms: SpyAttributes=(log=(file)logs/spy/SAP_TxStore_Pool.log;logTName=yes;timestamp=yes)
